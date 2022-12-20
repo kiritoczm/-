@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#box{
+    width: 100%;
+    height: 100%;
+}
+
+.dh{
+    width: 1200px;
+    height: 80px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.logo{
+    background: url(../pic/logo2x.png) no-repeat;
+    background-size: 70%;
+    height: 79px;
+    width: 280px;
+    position: absolute;
+    top: 15px;
+    display: inline-block;
+}
+
+.denglu{
+    display: inline-block;
+    position: absolute;
+    color: #666666;
+    top: 31px;
+    left: 228px;
+    padding: 0 0 1px 15px;
+    font-size: 20px;
+    margin: 0 0 0 0;
+    border-left: #DCDCDC 2px solid;
+}
+
+.nr{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+    position: relative;
+}
+
+.zhs{
+    position: absolute;
+    margin: 32px 7px 6px 11px;
+    height: 510px;
+
+}
+
+.dxdl{
+    position: absolute;
+    width: 300px;
+    height: 420px;
+    top: 47px;
+    right: 72px;
+    margin: 33px 0 0 25px;
+    background-color: #FFFFFF;
+    padding: 15px 25px 15px 21px;
+}
+
+.right_{
+    left: 235px;
+    background: url(../pic/ewm.png) no-repeat;
+    position: relative;
+    background-size: 52%;
+    width: 67px;
+    height: 68px;
+}
+
+.right_::before{
+    content: '';
+    position: absolute;
+    top: 6px;
+    border-bottom: 42px solid #fff;
+    border-right: 44px solid transparent;
+}
+
+.top_{
+    position: absolute;
+    margin: 0px 0 5px 0;
+    padding: 0 0 0 0;
+    color: #716e6e;
+    font-size: 20px;
+    top: 60px;
+}
+
+.top_ span{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 8px;
+}
+
+.top_ .mm{
+    position: relative;
+}
+
+.mm::after{
+    content: '';
+    position: absolute;
+    top: 43px;
+    border-bottom: 4px solid #FF6633;
+    width: 133px;
+    left: 7px;
+}
+
+.pc_fm{
+    position: relative;
+    top: 3rem;
+}
+
+#fm>div{
+    display: flex;
+    width: 300px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0.5rem;
+}
+#fm label{
+    width: 80px;
+    font-size: 14px;
+    text-align: left;
+}
+.input{
+    width: 150px;
+    margin-top: 5px;
+    color: #333333;
+}
+.icon-gantanhao1{
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    color: #f00;
+    display: none;
+}
+
+
+.inp_{
+    position: absolute;
+    top: 105px;
+}
+
+.input-wrapper {
+    margin: 20px 7px auto;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: top;
+    font-size: 14px;
+    background: #ffffff;
+}
+
+.input-wrapper .textbox-wide {
+    width: 235px;
+}
+
+.input-wrapper .textbox-border {
+    border: 1px solid #cccccc;
+    padding: 0 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.input-wrapper .textbox {
+    border: none;
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0;
+    font-size: 14px;
+    padding: 7px 0 7px 0;
+    height: 35px;
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+}
+
+
+.w2{
+    position: absolute;
+    text-align: center;
+    bottom: 85px;
+    color: #8C8C8C;
+    margin: 0 84px;
+    
+}
+
+.split-pc {
+    position: absolute;
+    width: 264px;
+    border: 1px dashed #C0C0C0;
+    margin: 6px 0;
+    bottom: 64px;
+
+}
+
+
+
+.button-pc {
+    display: block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #f63;
+    color: #fff;
+    width: 130px;
+    text-align: center;
+    font-family: 'PingFangSC-Semibold';
+    font-size: 16px;
+    line-height: 22px;
+    border-style: none;
+    position: absolute;
+    bottom: -1.3rem;
+    right: 58px;
+
+}
+.pc-agreement {
+    position: relative;
+    margin: 5px 11px 10px;
+    top: 266px
+}
+
+.pc-agreement .checkbox input {
+    vertical-align: middle;
+}
+
+.pc-agreement .checkbox label {
+    font-size: 13px;
+    color: #333333;
+    line-height: 18px;
+    margin-left: 2px;
+}
+
+.pc-agreement .checkbox span {
+    position: absolute;
+    top: 20px;
+    left: 24px;
+}
+
+.pc-agreement .checkbox span a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #2727F2;
+}
+
+.checkbox{
+    position: absolute;
+    bottom: 7rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.jw{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    height: 70px;
+    background-color: #F0F0F0;
+    overflow: hidden;
+   
+}
+
+.gywm{
+    width: 1200px;
+    margin: 10px auto;
+    position: relative;
+    text-align: center;
+}
+
+.spanx{
+    font-size: 0.8rem;
+    color: #8C8C8C;
+    margin-left: 1.1rem;
+}
+
+.spanx:hover{
+    color: #FF6633;
+    cursor: pointer;
+}
+
+.pp,.a_{
+    font-size: 0.7rem;
+    color: #8C8C8C;
+}
+
+.pp{
+    margin-left: 3.7vw;
+    position: relative;
+    top: 1vh;
+}
+
+.a_:link{
+    text-decoration: none;
+    color: #8C8C8C;
+}
+
+.a_:visited{
+    text-decoration: none;
+    color: #8C8C8C;
+}
+
+.a_:hover{
+    color: #FF6633;
+}

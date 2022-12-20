@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 100%;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #FF6633;
+}
+
+#biggest{
+    width:100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+}
+
+.dw{
+    height: 30px;
+    width: 1200px;
+    margin: 10px auto;
+    position: relative;
+    
+}
+
+.icon-dingwei{
+    font-size: 25px;
+    color: #FF6633;
+    position:absolute;
+    top: 3px;
+    left: 0px;
+}
+
+.weizhi{
+    font-size: 12px;
+    line-height: 30px;
+    position: absolute;
+    left: 26px;
+}
+
+.denglu{
+    font-size: 12px;
+    line-height: 30px;
+    position:absolute;
+    right: 18%;
+}
+
+.gerenzhongxin{
+    font-size: 12px;
+    line-height: 30px;
+    position:absolute;
+    right: 11%;
+}
+
+.shanghufuwu{
+    font-size: 12px;
+    line-height: 30px;
+    position:absolute;
+    right: 5%;
+}
+
+.bangzhuzhongxin{
+    font-size: 12px;
+    line-height: 30px;
+    position:absolute;
+    right: 0%;
+}
+
+.icon-daosanjiao{
+    color: #a39a9ab9;
+    font-size: 1px;
+}
+
+.daohang{
+    height: 130px;
+    width: 100%;
+    background-color: #FFFFFF;
+    position: relative;
+    border-bottom: #5EB22D 2px solid;
+}
+.header{
+    width: 1200px;
+    margin: 10px auto;
+    position: relative;
+}
+.logo{
+    background: url(../pic/logo.png) no-repeat;
+    background-size: 100%;
+    height: 46px;
+    width: 287px;
+    position: absolute;
+    top: 15px;
+    display: inline-block;
+}
+
+
+
+.sousuo{
+    width: 50%;
+    height: 33px;
+    border: 2px solid #5EB22D;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 329px;
+    display: inline-block;
+}
+
+.ss{
+    width: 50%;
+    height: 100%;
+    border-style: none;
+    font-family: "微软雅黑";
+}
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder{
+    color: #D8D8D8;
+}
+
+.icon-sousuo{
+    margin-left: 5px;
+    font-size: 0.9em;
+    color: #D8D8D8;
+}
+
+.anniu{
+    display: block;
+    width: 20%;
+    height: 110%;
+    color: #FFFFFF;
+    background-color: #5EB22D;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    float: right;
+    position: relative;
+    top: -2px;
+    right: -2px;
+}
+
+.sousuo a{
+    color: #FFFFFF;
+}
+
+.anniu:link{
+    color: #FFFFFF;
+}
+
+.aanniu:visited{
+    color: #FFFFFF;
+}
+
+.anniu:hover{
+    color: #FFFFFF;
+}
+
+.header_tow{
+    position: absolute;
+    margin: 10px 0;
+    top: 88px;
+}
+.fl{
+    display: inline-block;
+    width: 210px;
+    height: 33px;
+    line-height: 33px;
+    background-color: #5EB22D;
+    color: #fff;
+    padding: 0px 0px 0 20px;
+    font-size: 16px;
+    font-weight: bold
+}
+.dz{
+    display: inline-block;
+    width: 210px;
+    height: 33px;
+    line-height: 33px;
+    color: #000;
+    padding: 0px 2px 1px 35px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.nr{
+    width: 1200px;
+    margin: 10px auto;
+    position: relative;
+    height:  auto;
+    background-color: #F6F6F6;
+}
+
+.zxkd{
+    display: block;
+   
+}
+.flbox{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    
+}
+.xifu{
+   width: 540px;
+   height: 170px;
+   position: relative;
+   background-color: #FFFFFF;
+   margin: 10px 0;
+
+}
+
+.fy{
+   position: absolute;
+   width: 200px;
+   height: 170px;
+   left: 0px;
+}
+
+.xinxi{
+    position: absolute;
+    width: 290px;
+    height: 140px;
+    left: 230px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.p1{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 5px 0;
+    overflow: hidden;
+    
+}
+
+.wjx{
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 5px 0;
+    overflow: hidden;
+}
+
+.pj{
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 5px 0;
+    overflow: hidden;
+}
+
+.span1{
+    font-size: 0.8rem;
+    color: #666666;
+}
+
+.jutidizhi{
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 5px 0;
+    overflow: hidden;
+}
+
+.p2{
+    font-size: 0.8rem;
+    color: #666666;
+}
+
+
+.jw{
+    width: 100%;
+    margin: 10px auto;
+    position: relative;
+    height: 70px;
+    background-color: #F0F0F0;
+    overflow: hidden;
+   user-select: none;
+}
+
+.gywm{
+    width: 1200px;
+    margin: 10px auto;
+    position: relative;
+    text-align: center;
+}
+
+.spanx{
+    font-size: 0.8rem;
+    color: #8C8C8C;
+    margin-left: 1.1rem;
+}
+
+.span2:hover{
+    color: #FF6633;
+    cursor: pointer;
+}
+
+.p3,.a1{
+    font-size: 0.7rem;
+    color: #8C8C8C;
+}
+
+.p3{
+    margin-left: 3.7vw;
+    position: relative;
+    top: 1vh;
+}
+
+.a1:link{
+    text-decoration: none;
+    color: #8C8C8C;
+}
+
+.a1:visited{
+    text-decoration: none;
+    color: #8C8C8C;
+}
+
+.a1:hover{
+    color: #FF6633;
+}
